@@ -64,6 +64,7 @@
                                             <outlet property="posterView" destination="4Nu-WW-ngj" id="g1U-0E-Ndw"/>
                                             <outlet property="synopsisLabel" destination="IOT-LR-wtX" id="QgY-ic-153"/>
                                             <outlet property="titleLabel" destination="W9q-n6-MCY" id="xXM-XY-DwN"/>
+                                            <segue destination="8x1-ND-iHZ" kind="show" id="qUp-42-cNG"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -104,6 +105,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mgz-bp-hvm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
+        </scene>
+        <!--Movies Details View Controller-->
+        <scene sceneID="MUI-vV-kLw">
+            <objects>
+                <viewController id="8x1-ND-iHZ" customClass="MoviesDetailsViewController" customModule="flix" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vy6-45-fee">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="086-D1-3If"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZBj-Xt-xSh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4dX-Ll-rWy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1522" y="84"/>
         </scene>
     </scenes>
     <resources>
